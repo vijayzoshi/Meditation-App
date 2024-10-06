@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlitem"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="11dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:longClickable="true">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.kmit.musicapp.Util.RoundedImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="top"
+            android:gravity="center_horizontal"
+            android:src="?attr/background_two"
+            app:riv_oval="true" />
+
+        <ImageView
+            android:id="@+id/backImage"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="top"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/bottomHolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/backImage"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp">
+
+            <TextView
+
+                android:id="@+id/card_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="@string/title"
+                android:textColor="?attr/textcolor_f"
+                android:textSize="14dp"
+                />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

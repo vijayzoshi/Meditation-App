@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_home"> الموسيقى </string>
+        
+    <string name="action_settings"> الإعدادات </string>
+        
+    <string name="language"> اللغة </string>
+        
+    <string name="title"> العنوان </string>
+        
+    <string name="viewall"> عرض الكل </string>
+        
+    <string name="sign_up"> الاشتراك </string>
+        
+    <string name="dont_account"> ألا تمتلك حسابًا؟ </string>
+        
+    <string name="rememberme"> تذكرني </string>
+        
+    <string name="email"> البريد الإلكتروني </string>
+        
+    <string name="name"> الاسم </string>
+        
+    <string name="phoneNo"> رقم الهاتف </string>
+        
+    <string name="regis"> التسجيل </string>
+        
+    <string name="alreadyhaveanaccountyet"> هل لديك حساب بالفعل؟ </string>
+        
+    <string name="login"> تسجيل الدخول </string>
+        
+    <string name="password"> كلمة المرور </string>
+        
+    <string name="please_enter_email"> يرجى إدخال البريد الإلكتروني </string>
+        
+    <string name="please_enter_password"> يرجى إدخال كلمة المرور </string>
+        
+    <string name="please_enter_confirm_password"> تأكيد كلمة المرور </string>
+        
+    <string name="internet_connection"> اتصال الإنترنت غير متاح </string>
+        
+    <string name="loading"> جار التحميل .. </string>
+        
+    <string name="theme"> السمة </string>
+        
+    <string name="home"> المنزل </string>
+        
+    <string name="favoritess"> المفضلة </string>
+        
+    <string name="resent"> الموسيقى الحديثة </string>
+        
+    <string name="resen"> الأخيرة </string>
+        
+    <string name="profile"> الملف الشخصي </string>
+        
+    <string name="please_enter_name"> من فضلك أدخل الاسم </string>
+        
+    <string name="please_enter_phone"> يرجى إدخال رقم الهاتف </string>
+        
+    <string name="createac"> إنشاء حساب جديد </string>
+        
+    <string name="music_app"> تطبيق الموسيقى </string>
+        
+    <string name="welcome"> مرحبًا بك </string>
+        
+    <string name="email_profile"> البريد الإلكتروني: - </string>
+        
+    <string name="name_profile"> الاسم: - </string>
+        
+    <string name="mostplay"> معظم التشغيل </string>
+        
+    <string name="allplay"> تشغيل الكل </string>
+        
+    <string name="populer_artist"> فنان شائع </string>
+        
+    <string name="populer_album"> الألبومات الشائعة </string>
+        
+    <string name="reco"> مستحسن </string>
+        
+    <string name="music"> الموسيقى </string>
+        
+    <string name="movie"> الأفلام </string>
+        
+    <string name="album"> الألبوم </string>
+        
+    <string name="own"> قائمة التشغيل الخاصة </string>
+        
+    <string name="quickstart_message"> انقر فوق الزر "الاشتراك في الطقس" أدناه للاشتراك في
+        موضوع الطقس. سيتم تلقي الرسائل المرسلة إلى موضوع الطقس. يسجل زر LOG TOKEN في
+        رمز InstanceID إلى logcat. </string>
+        
+    <string name="subscribe_to_weather"> الاشتراك في الطقس </string>
+        
+    <string name="log_token"> رمز الدخول </string>
+        
+        
+    <string name="default_notification_channel_name"> الطقس </string>
+        
+    <string name="msg_subscribe_failed"> فشل الاشتراك في موضوع الطقس </string>
+        
+    <string name="fcm_message"> رسالة FCM </string>
+        
+    <string name="nothing"> ليس هناك شيء لإظهاره! </string>
+        
+    <string name="artist"> فنان </string>
+        
+    <string name="local"> LOCAL </string>
+
+    <string name="share"> مشاركة </string>
+    <string name="rate"> معدل </string>
+    <string name="topplay"> تشغيل علوي </string>
+    <string name="sleepplay"> قصص النوم </string>
+
+    <string name="journeys"> الرحلات </string>
+    <string name="more"> المزيد </string>
+    <string name="privacy"> سياسة الخصوصية </string>
+</resources>

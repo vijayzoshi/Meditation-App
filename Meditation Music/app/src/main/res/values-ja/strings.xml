@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_home">音楽</string>
+        
+    <string name="action_settings">設定</string>
+        
+    <string name="language">言語</string>
+        
+    <string name="title">タイトル</string>
+        
+    <string name="viewall">すべて表示</string>
+        
+    <string name="sign_up">サインアップ</string>
+        
+    <string name="dont_account">アカウントを持っていませんか？</string>
+        
+    <string name="rememberme"> Remember Me </string>
+        
+    <string name="email">メール</string>
+        
+    <string name="name">名前</string>
+        
+    <string name="phoneNo"> PhoneNo </string>
+        
+    <string name="regis">登録</string>
+        
+    <string name="alreadyhaveanaccountyet">すでにアカウントをお持ちですか？</string>
+        
+    <string name="login">ログイン</string>
+        
+    <string name="password">パスワード</string>
+        
+    <string name="please_enter_email">メールアドレスを入力してください</string>
+        
+    <string name="please_enter_password">パスワードを入力してください</string>
+        
+    <string name="please_enter_confirm_password">パスワードの確認</string>
+        
+    <string name="internet_connection">インターネット接続は利用できません</string>
+        
+    <string name="loading">読み込み中.. </string>
+        
+    <string name="theme">テーマ</string>
+        
+    <string name="home">ホーム</string>
+        
+    <string name="favoritess">お気に入り</string>
+        
+    <string name="resent">最近の音楽</string>
+        
+    <string name="resen">最近</string>
+        
+    <string name="profile">プロファイル</string>
+        
+    <string name="please_enter_name"> enetr名を入力してください</string>
+        
+    <string name="please_enter_phone">電話番号を入力してください</string>
+        
+    <string name="createac">新しいアカウントを作成</string>
+        
+    <string name="music_app">音楽アプリ</string>
+        
+    <string name="welcome">ようこそ、</string>
+        
+    <string name="email_profile">メール：-</string>
+        
+    <string name="name_profile">名前：-</string>
+        
+    <string name="mostplay">ほとんどのプレイ</string>
+        
+    <string name="allplay">すべて再生</string>
+        
+    <string name="populer_artist">人気アーティスト</string>
+        
+    <string name="populer_album">人気アルバム</string>
+        
+    <string name="reco">推奨</string>
+        
+    <string name="music">音楽</string>
+        
+    <string name="movie">映画</string>
+        
+    <string name="album">アルバム</string>
+        
+    <string name="own">独自のプレイリスト</string>
+        
+    <string name="quickstart_message">下の「天気を申し込む」ボタンをクリックして、
+        天気トピック。天気トピックに送信されたメッセージが受信されます。 LOG TOKENボタンは、
+        logcatへのInstanceIDトークン。</string>
+        
+    <string name="subscribe_to_weather">天気予報を購読</string>
+        
+    <string name="log_token">ログトークン</string>
+        
+    <string name="default_notification_channel_name">天気</string>
+        
+    <string name="msg_subscribe_failed">天気トピックの購読に失敗しました</string>
+        
+    <string name="fcm_message"> FCMメッセージ</string>
+        
+    <string name="nothing">何も表示しない！</string>
+        
+    <string name="artist">アーティスト</string>
+        
+    <string name="local"> LOCAL </string>
+
+    <string name="share">共有</string>
+    <string name="rate">レート</string>
+    <string name="topplay">トッププレイ</string>
+    <string name="sleepplay">スリープストーリー</string>
+
+    <string name="journeys">旅</string>
+    <string name="more">その他</string>
+    <string name="privacy">プライバシーポリシー</string>
+</resources>

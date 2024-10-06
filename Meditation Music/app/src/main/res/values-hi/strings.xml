@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_home"> राह प्ले </string>
+        
+    <string name="action_settings"> सेटिंग्स </string>
+        
+    <string name="language"> भाषा </string>
+        
+    <string name="title"> शीर्षक </string>
+        
+    <string name="viewall"> सभी देखें </string>
+        
+    <string name="sign_up"> साइन अप करें </string>
+        
+    <string name="dont_account"> डॉन का खाता नहीं है? </string>
+        
+    <string name="rememberme"> मुझे याद रखें </string>
+        
+    <string name="email"> Email </string>
+        
+    <string name="name"> नाम </string>
+        
+    <string name="phoneNo"> PhoneNo </string>
+        
+    <string name="regis"> पंजीकरण </string>
+        
+    <string name="alreadyhaveanaccountyet"> पहले से ही अभी तक एक खाता है? </string>
+        
+    <string name="login"> लॉग इन करें </string>
+        
+    <string name="password"> पासवर्ड </string>
+        
+    <string name="please_enter_email"> कृपया ईमेल दर्ज करें </string>
+        
+    <string name="please_enter_password"> कृपया पासवर्ड दर्ज करें </string>
+        
+    <string name="please_enter_confirm_password"> पासवर्ड की पुष्टि करें </string>
+        
+    <string name="internet_connection"> इंटरनेट कनेक्शन उपलब्ध नहीं </string>
+        
+    <string name="loading"> Loading .. </string>
+        
+    <string name="theme"> थीम </string>
+        
+    <string name="home"> Home </string>
+        
+    <string name="favoritess"> पसंदीदा </string>
+        
+    <string name="resent"> हाल ही में संगीत </string>
+        
+    <string name="resen"> हालिया </string>
+        
+    <string name="profile"> प्रोफ़ाइल </string>
+        
+    <string name="please_enter_name"> कृपया enetr नाम </string>
+        
+    <string name="please_enter_phone"> कृपया फ़ोन नंबर डालें </string>
+        
+    <string name="createac"> एक नया खाता बनाएँ </string>
+        
+    <string name="music_app"> Music App </string>
+        
+    <string name="welcome"> स्वागत हे </string>
+        
+    <string name="email_profile"> ईमेल: - </string>
+        
+    <string name="name_profile"> नाम: - </string>
+        
+    <string name="mostplay"> अधिकांश प्ले </string>
+        
+    <string name="allplay"> सभी को बजाएं </string>
+        
+    <string name="populer_artist"> लोकप्रिय कलाकार </string>
+        
+    <string name="populer_album"> लोकप्रिय एल्बम </string>
+        
+    <string name="reco"> अनुशंसित </string>
+        
+    <string name="music"> संगीत </string>
+        
+    <string name="movie"> Movies </string>
+        
+    <string name="album"> एल्बम </string>
+        
+    <string name="own"> अपना प्लेलिस्ट </string>
+        
+    <string name="quickstart_message"> सदस्यता लेने के लिए नीचे दिए गए SUBSCRIBE TO WEATHER बटन पर क्लिक करें।
+        मौसम विषय। मौसम विषय पर भेजे गए संदेश प्राप्त होंगे। लॉग टोकन बटन लॉग करता है
+        Logcat को InstanceID टोकन। </string>
+        
+    <string name="subscribe_to_weather"> मौसम की सदस्यता लें </string>
+        
+    <string name="log_token"> लॉग टोकन </string>
+        
+    <string name="default_notification_channel_name"> मौसम </string>
+        
+    <string name="msg_subscribe_failed"> मौसम विषय की सदस्यता लेने में विफल </string>
+        
+    <string name="fcm_message"> FCM Message </string>
+        
+    <string name="nothing"> Show करने के लिए कुछ भी नहीं! </string>
+        
+    <string name="artist"> कलाकार </string>
+        
+    <string name="local"> LOCAL </string>
+
+    <string name = "share"> बँटना </string>
+    <string name = "rate"> Rate </string>
+    <string name = "topplay"> टॉप प्ले </string>
+    <string name = "sleepplay"> स्लीप स्टोरीज </string>
+
+    <string name = "journeys"> जर्नी </string>
+    <string name = "more"> More </string>
+    <string name = "privacy"> गोपनीयता नीति </string>
+</resources>

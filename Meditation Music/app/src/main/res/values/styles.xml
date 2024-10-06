@@ -1,0 +1,115 @@
+<resources>
+
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+<!--        <item name="windowActionBar">false</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomShowcaseTheme" parent="ShowcaseView.Light">
+        <item name="sv_backgroundColor">#DD424342</item>
+        <item name="sv_showcaseColor">#424342</item>
+        <item name="sv_buttonText">Hide</item>
+        <item name="sv_tintButtonColor">false</item>
+        <item name="sv_titleTextAppearance">@style/CustomTitle</item>
+        <item name="sv_detailTextAppearance">@style/CustomText</item>
+    </style>
+
+    <style name="CustomTitle" parent="TextAppearance.ShowcaseView.Title">
+        <!--<item name="android:textColor">#C1B098</item>-->
+        <item name="android:textColor">#FFA036</item>
+    </style>
+
+    <style name="CustomText" parent="TextAppearance.ShowcaseView.Detail.Light">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorAccent</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#565656</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#383838</item>
+    </style>
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="textcolor_a">#777777</item>
+        <item name="textcolor_b">#555555</item>
+        <item name="textcolor_c">#333333</item>
+        <item name="textcolor_d">#222222</item>
+        <item name="textcolor_e">#111111</item>
+        <item name="textcolor_f">#000000</item>
+
+        <item name="background_zero">#ffffff</item>
+        <item name="background_one">#ffffff</item>
+        <item name="background_two">#dddddd</item>
+        <item name="background_three">#dddddd</item>
+        <item name="background_four">#dddddd</item>
+        <item name="background_seven">#aaaaaa</item>
+
+        <item name="background_one_five">#ffffff</item>
+        <item name="background_two_three">#eeeeee</item>
+        <item name="background_four_two">#dddddd</item>
+        <item name="background_five_six">#cccccc</item>
+        <item name="background_six_seven">#bbbbbb</item>
+        <item name="background_eight_nine">#aaaaaa</item>
+
+        <item name="realtimeOverlayColor_set_one">#88EBEBEB</item>
+        <item name="realtimeOverlayColor_set">#88ffffff</item>
+        <item name="rippleColor_set">#888888</item>
+        <item name="tint_f_n">#CECECE</item>
+
+    </style>
+
+    <style name="dark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#bdbdbd</item>
+
+        <item name="textcolor_a">#AAAAAA</item>
+        <item name="textcolor_b">#BBBBBB</item>
+        <item name="textcolor_c">#CCCCCC</item>
+        <item name="textcolor_d">#DDDDDD</item>
+        <item name="textcolor_e">#EEEEEE</item>
+        <item name="textcolor_f">#FFFFFF</item>
+
+        <item name="background_zero">#0B0F1C</item>
+        <item name="background_one">#141930</item>
+        <item name="background_two">#1B2140</item>
+        <item name="background_three">#1F2649</item>
+        <item name="background_four">#2C3565</item>
+        <item name="background_seven">#3B4787</item>
+
+        <item name="background_one_five">#0B0F1C</item>
+        <item name="background_two_three">#141930</item>
+        <item name="background_four_two">#1B2140</item>
+        <item name="background_five_six">#1F2649</item>
+        <item name="background_six_seven">#2C3565</item>
+        <item name="background_eight_nine">#3B4787</item>
+
+        <item name="realtimeOverlayColor_set_one">#88141930</item>
+        <item name="realtimeOverlayColor_set">#880B0F1C</item>
+        <item name="rippleColor_set">#3B4787</item>
+        <item name="tint_f_n">#2C3565</item>
+
+
+
+    </style>
+
+</resources>

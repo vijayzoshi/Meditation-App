@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_home"> Música </string>
+        
+    <string name="action_settings"> Configurações </string>
+        
+    <string name="language"> Idioma </string>
+        
+    <string name="title"> Título </string>
+        
+    <string name="viewall"> VER TODOS </string>
+        
+    <string name="sign_up"> Inscreva-se </string>
+        
+    <string name="dont_account"> Não possui uma conta? </string>
+        
+    <string name="rememberme"> Lembrar-me </string>
+        
+    <string name="email"> Email </string>
+        
+    <string name="name"> Nome </string>
+        
+    <string name="phoneNo"> PhoneNo </string>
+        
+    <string name="regis"> Registro </string>
+        
+    <string name="alreadyhaveanaccountyet"> Já tem uma conta? </string>
+        
+    <string name="login"> Entrar </string>
+        
+    <string name="password"> Senha </string>
+        
+    <string name="please_enter_email"> Digite o email </string>
+        
+    <string name="please_enter_password"> Digite a senha </string>
+        
+    <string name="please_enter_confirm_password"> Confirme a senha </string>
+        
+    <string name="internet_connection"> Conexão com a Internet não disponível </string>
+        
+    <string name="loading"> Carregando .. </string>
+        
+    <string name="theme"> Tema </string>
+        
+    <string name="home"> Página inicial </string>
+        
+    <string name="favoritess"> Favorito </string>
+        
+    <string name="resent"> Música recente </string>
+        
+    <string name="resen"> Recente </string>
+        
+    <string name="profile"> Perfil </string>
+        
+    <string name="please_enter_name"> por favor, digite o nome </string>
+        
+    <string name="please_enter_phone"> Digite o número do telefone </string>
+        
+    <string name="createac"> Crie uma nova conta </string>
+        
+    <string name="music_app"> Aplicativo de música </string>
+        
+    <string name="welcome"> Bem-vindo a, </string>
+        
+    <string name="email_profile"> Email: - </string>
+        
+    <string name="name_profile"> Nome: - </string>
+        
+    <string name="mostplay"> Mais reproduções </string>
+        
+    <string name="allplay"> Reproduzir tudo </string>
+        
+    <string name="populer_artist"> Artista popular </string>
+        
+    <string name="populer_album"> Álbuns populares </string>
+        
+    <string name="reco"> Recomendado </string>
+        
+    <string name="music"> Música </string>
+        
+    <string name="movie"> Filmes </string>
+        
+    <string name="album"> Álbum </string>
+        
+    <string name="own"> Lista de reprodução própria </string>
+        
+    <string name="quickstart_message"> Clique no botão ASSINAR AO TEMPO abaixo para assinar o
+        tópico do tempo. As mensagens enviadas para o tópico meteorológico serão recebidas. O botão LOG TOKEN registra o
+        Token de InstanceID para logcat. </string>
+        
+    <string name="subscribe_to_weather"> Inscrever-se no clima </string>
+        
+    <string name="log_token"> Token de Log </string>
+        
+    <string name="default_notification_channel_name"> Clima </string>
+        
+    <string name="msg_subscribe_failed"> Falha ao assinar o tópico meteorológico </string>
+        
+    <string name="fcm_message"> Mensagem do FCM </string>
+        
+    <string name="nothing"> Nada para mostrar! </string>
+        
+    <string name="artist"> Artista </string>
+        
+    <string name="local"> LOCAL </string>
+
+    <string name="share"> Compartilhar </string>
+    <string name="rate"> Taxa </string>
+    <string name="topplay"> Melhor reprodução </string>
+    <string name="sleepplay"> Histórias de sono </string>
+
+    <string name="journeys"> Jornadas </string>
+    <string name="more"> Mais </string>
+    <string name="privacy"> Política de privacidade </string>
+</resources>

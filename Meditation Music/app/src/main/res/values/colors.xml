@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6F62E7</color>
+    <color name="colorPrimaryDark">#6F62E7</color>
+    <color name="colorAccent">#6F62E7</color>
+
+
+    <color name="background_zero">#111111</color>
+
+    <color name="background_four_two">#424242</color>
+
+
+
+
+    <color name="translet">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="prim">#6F62E7</color>
+    <color name="prim1">#4776E6</color>
+    <color name="prim2">#8E54E9</color>
+
+    <color name="switch_normal">#888D9F</color>
+    <color name="imageView_boder_profile">#EAEAEA</color>
+    <color name="view_profile">#3b4048</color>
+
+
+    <color name="grad_one">#84B4EC</color>
+    <color name="grad_two">#E88BD7</color>
+    <color name="grad_three">#FCB5B1</color>
+    <color name="red">#FF3C48</color>
+    <color name="redxz">#141930</color>
+
+
+</resources>

@@ -1,0 +1,317 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background_one"
+    android:clickable="true"
+    >
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rb_bottom"
+        app:title=" "
+        >
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:collapsedTitleGravity="center_vertical"
+                app:contentScrim="?attr/colorPrimary"
+                app:expandedTitleMarginStart="15dp"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/main_banner2" />
+                </RelativeLayout>
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbarss"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:title=" "
+                    app:layout_collapseMode="pin"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    />
+                <RelativeLayout
+                    android:id="@+id/recents_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fitsSystemWindows="true"
+                    app:layout_collapseMode="pin"
+                    >
+
+                    <ImageView
+                        android:id="@+id/recents_back_btn"
+                        android:layout_width="30dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_back"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/recents_fragment_title"
+                        android:text="@string/favoritess"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/white"
+                        android:textSize="23sp" />
+
+
+
+                </RelativeLayout>
+
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-75dp"
+            android:paddingBottom="65dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:orientation="vertical">
+
+                <!--                mostplay-->
+                <RelativeLayout
+                    android:id="@+id/mostPlayedRecyclerContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="?attr/background_two"
+                        app:cardCornerRadius="5dp"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <TextView
+                                android:id="@+id/mostPlayeRecyclerLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/own"
+                                android:textColor="?attr/textcolor_f"
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mostPlayeRecyclerLabel"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="25dp"
+                                android:text="@string/nothing"
+                                android:textColor="?attr/rippleColor_set"
+                                android:textSize="13dp"
+                                android:visibility="invisible" />
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/mostPlayeMusicList_home"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mostPlayeRecyclerLabel"
+                                android:padding="5dp" />
+
+                            <RelativeLayout
+
+                                android:id="@+id/mostPlaye_avi"
+                                android:layout_width="match_parent"
+                                android:layout_height="155dp"
+                                android:layout_below="@+id/mostPlayeRecyclerLabel"
+                                android:gravity="center">
+
+                                <com.wang.avi.AVLoadingIndicatorView
+                                    style="@style/AVLoadingIndicatorView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:visibility="visible"
+                                    app:indicatorColor="@color/prim"
+                                    app:indicatorName="LineSpinFadeLoaderIndicator" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:visibility="gone"
+                                android:id="@+id/mostPlaye_nodata"
+                                android:layout_width="match_parent"
+                                android:layout_height="155dp"
+                                android:layout_below="@+id/mostPlayeRecyclerLabel"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:textColor="?attr/textcolor_f"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:visibility="visible"
+                                    android:text="No Any Playlist"
+                                    />
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+
+                <!--                Topplay-->
+                <RelativeLayout
+                    android:id="@+id/topPlayedRecyclerContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mostPlayedRecyclerContainer"
+                    android:layout_marginLeft="-6dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="-6dp">
+
+                    <TextView
+                        android:id="@+id/topPlayeRecyclerLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/favoritess"
+                        android:textColor="?attr/textcolor_f"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/topPlayeRecyclerLabel"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="25dp"
+                        android:text="@string/nothing"
+                        android:textColor="?attr/rippleColor_set"
+                        android:textSize="13dp"
+
+                        android:visibility="invisible" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/topPlayeMusicList_home"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/topPlayeRecyclerLabel"
+                        android:padding="5dp" />
+
+                    <RelativeLayout
+
+                        android:id="@+id/topPlaye_avi"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:layout_below="@+id/topPlayeRecyclerLabel"
+                        android:gravity="center">
+
+                        <com.wang.avi.AVLoadingIndicatorView
+                            style="@style/AVLoadingIndicatorView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:visibility="visible"
+                            app:indicatorColor="@color/prim"
+                            app:indicatorName="LineSpinFadeLoaderIndicator" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <!--                recent-->
+                <RelativeLayout
+                    android:id="@+id/resentRecyclerContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/topPlayedRecyclerContainer"
+                    android:layout_marginLeft="-6dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="-6dp">
+
+                    <TextView
+                        android:id="@+id/resentRecyclerLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/resent"
+                        android:textColor="?attr/textcolor_f"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/resentRecyclerLabel"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="25dp"
+                        android:text="@string/nothing"
+                        android:textColor="?attr/rippleColor_set"
+                        android:textSize="13dp"
+                        android:visibility="invisible" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/resentMusicList_home"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/resentRecyclerLabel"
+                        android:padding="5dp" />
+
+                    <RelativeLayout
+
+                        android:id="@+id/resent_avis"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:layout_below="@+id/resentRecyclerLabel"
+                        android:gravity="center">
+
+                        <com.wang.avi.AVLoadingIndicatorView
+                            style="@style/AVLoadingIndicatorView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:visibility="visible"
+                            app:indicatorColor="@color/prim"
+                            app:indicatorName="LineSpinFadeLoaderIndicator" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>

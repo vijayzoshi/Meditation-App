@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background_three">
+    <RelativeLayout
+        android:id="@+id/album_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/toolbar_gradient"
+        >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_back"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/album_fragment_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/language"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:id="@+id/ask"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/check"
+            android:padding="15dp"
+            android:tint="@color/white"
+            />
+
+
+    </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="10dp"
+            android:layout_below="@+id/album_header"
+            android:paddingRight="10dp">
+
+            <com.nex3z.flowlayout.FlowLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:flChildSpacing="auto"
+                app:flChildSpacingForLastRow="align"
+                app:flRowSpacing="8dp">
+
+
+                <TextView
+                    android:id="@+id/ar"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_margin="5dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="?attr/textcolor_f"
+                    android:background="@drawable/image_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="العربية"/>
+
+                <TextView
+                    android:paddingTop="15dp"
+                    android:id="@+id/fr"
+                    android:paddingBottom="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:ellipsize="end"
+                    android:textColor="?attr/textcolor_f"
+                    android:maxLines="1"
+                    android:layout_margin="3dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:background="@drawable/image_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Français"/>
+
+                <TextView
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:id="@+id/en"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:ellipsize="end"
+                    android:textColor="?attr/textcolor_f"
+                    android:maxLines="1"
+                    android:background="@drawable/image_regular"
+                    android:layout_margin="3dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="English"/>
+
+                <TextView
+                    android:paddingTop="15dp"
+                    android:id="@+id/ja"
+                    android:paddingBottom="15dp"
+                    android:paddingStart="15dp"
+                    android:textColor="?attr/textcolor_f"
+                    android:paddingEnd="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_margin="3dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:background="@drawable/image_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="日本人"/>
+
+                <TextView
+                    android:id="@+id/ko"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="?attr/textcolor_f"
+                    android:paddingStart="15dp"
+                    android:background="@drawable/image_regular"
+                    android:paddingEnd="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_margin="3dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="한국어"/>
+
+                <TextView
+                    android:id="@+id/hi"
+                    android:paddingTop="15dp"
+                    android:textColor="?attr/textcolor_f"
+                    android:paddingBottom="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_margin="3dp"
+                    android:textSize="17sp"
+                    android:background="@drawable/image_regular"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="हिन्दी"/>
+
+                <TextView
+                    android:paddingTop="15dp"
+                    android:id="@+id/ch"
+                    android:paddingBottom="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="?attr/textcolor_f"
+                    android:background="@drawable/image_regular"
+                    android:layout_margin="3dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="中文"/>
+
+                <TextView
+                    android:paddingTop="15dp"
+                    android:id="@+id/pt"
+                    android:paddingBottom="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:background="@drawable/image_regular"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_margin="3dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:textColor="?attr/textcolor_f"
+                    android:layout_height="wrap_content"
+                    android:text="portuguesa"/>
+
+                <TextView
+                    android:id="@+id/ru"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_margin="3dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:background="@drawable/image_regular"
+                    android:textColor="?attr/textcolor_f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="русский"/>
+
+
+
+                <TextView
+                    android:id="@+id/sat"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_margin="3dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:background="@drawable/image_regular"
+                    android:textColor="?attr/textcolor_f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Santali"/>
+
+                <TextView
+                    android:id="@+id/bn"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_margin="3dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:background="@drawable/image_regular"
+                    android:textColor="?attr/textcolor_f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="বাংলা"/>
+
+                <TextView
+                    android:id="@+id/or"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_margin="3dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:background="@drawable/image_regular"
+                    android:textColor="?attr/textcolor_f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="odiya"/>
+            </com.nex3z.flowlayout.FlowLayout>
+        </RelativeLayout>
+</RelativeLayout>

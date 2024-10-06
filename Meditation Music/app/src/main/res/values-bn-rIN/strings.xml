@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_home"> রাহ প্লে </string>
+        
+    <string name="action_settings"> সেটিংস </string>
+        
+    <string name="language"> ভাষা </string>
+        
+    <string name="title"> শিরোনাম </string>
+        
+    <string name="viewall"> সমস্ত দেখুন </string>
+        
+    <string name="sign_up"> সাইন আপ </string>
+        
+    <string name="dont_account"> কোনও অ্যাকাউন্ট নেই? </string>
+        
+    <string name="rememberme"> আমাকে স্মরণ করুন </string>
+        
+    <string name="email"> ইমেল </string>
+        
+    <string name="name"> নাম </string>
+        
+    <string name="phoneNo"> ফোন নম্বর </string>
+        
+    <string name="regis"> নিবন্ধকরণ </string>
+        
+    <string name="alreadyhaveanaccountyet">ইতিমধ্যে এখনও একটি অ্যাকাউন্ট আছে? </string>
+        
+    <string name="login"> লগ ইন </string>
+        
+    <string name="password"> পাসওয়ার্ড </string>
+        
+    <string name="please_enter_email"> দয়া করে ইমেল প্রবেশ করুন </string>
+        
+    <string name="please_enter_password"> দয়া করে পাসওয়ার্ড প্রবেশ করুন </string>
+        
+    <string name="please_enter_confirm_password"> পাসওয়ার্ড নিশ্চিত করুন </string>
+        
+    <string name="internet_connection"> ইন্টারনেট সংযোগ উপলব্ধ নয় </string>
+        
+    <string name="loading"> লোড হচ্ছে .. </string>
+        
+    <string name="theme"> থিম </string>
+        
+    <string name="home"> হোম </string>
+        
+    <string name="favoritess"> প্রিয় </string>
+        
+    <string name="resent"> সাম্প্রতিক সংগীত </string>
+        
+    <string name="resen"> সাম্প্রতিক </string>
+        
+    <string name="profile"> প্রোফাইল </string>
+        
+    <string name="please_enter_name"> অনুগ্রহ করে নাম প্রবেশ করুন </string>
+        
+    <string name="please_enter_phone"> দয়া করে ফোন নম্বর লিখুন </string>
+        
+    <string name="createac"> একটি নতুন অ্যাকাউন্ট তৈরি করুন </string>
+        
+    <string name="music_app"> সঙ্গীত অ্যাপ </string>
+        
+    <string name="welcome"> স্বাগতম, </string>
+        
+    <string name="email_profile"> ইমেল: - </string>
+        
+    <string name="name_profile"> নাম: - </string>
+        
+    <string name="mostplay"> সর্বাধিক প্লে </string>
+        
+    <string name="allplay"> সমস্ত খেলুন </string>
+        
+    <string name="populer_artist"> জনপ্রিয় শিল্পী </string>
+        
+    <string name="populer_album"> জনপ্রিয় অ্যালবাম </string>
+        
+    <string name="reco"> প্রস্তাবিত </string>
+        
+    <string name="music"> সঙ্গীত </string>
+        
+    <string name="movie"> চলচ্চিত্রগুলি </string>
+        
+    <string name="album"> অ্যালবাম </string>
+        
+    <string name="own"> নিজস্ব প্লেলিস্ট </string>
+        
+    <string name="quickstart_message"> সাবস্ক্রাইব করতে নীচে সাবস্ক্রাইব করার জন্য বোতামটি ক্লিক করুন
+            আবহাওয়ার বিষয়। আবহাওয়ার বিষয়ে প্রেরিত বার্তাগুলি গ্রহণ করা হবে। লগ টোকেন বোতামটি লগ করে
+            ইনস্ট্যান্সআইডি টোকেন লগক্যাট। </string>
+        
+    <string name="subscribe_to_weather"> ওয়েদার সাবস্ক্রাইব করুন </string>
+        
+    <string name="log_token"> লগ টোকেন </string>
+        
+    <string name="default_notification_channel_name"> আবহাওয়া </string>
+        
+    <string name="msg_subscribe_failed"> আবহাওয়া বিষয় সাবস্ক্রাইব করতে ব্যর্থ </string>
+        
+    <string name="fcm_message"> এফসিএম বার্তা </string>
+        
+    <string name="nothing"> দেখানোর মতো কিছুই নেই! </string>
+        
+    <string name="artist"> শিল্পী </string>
+        
+    <string name="local"> স্থানীয় </string>
+
+    <string name="share"> ভাগ করুন </string>
+    <string name="rate"> হার </string>
+    <string name="topplay"> শীর্ষ প্লে </string>
+    <string name="sleepplay"> ঘুমের গল্প </string>
+
+    <string name="journeys"> যাত্রা </string>
+    <string name="more"> আরও </string>
+    <string name="privacy"> গোপনীয়তা নীতি </string>
+</resources>

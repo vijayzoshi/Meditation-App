@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_home"> 음악 </string>
+        
+    <string name="action_settings"> 설정 </string>
+        
+    <string name="language"> 언어 </string>
+        
+    <string name="title"> 제목 </string>
+        
+    <string name="viewall"> 모두보기 </string>
+        
+    <string name="sign_up"> 가입 </string>
+        
+    <string name="dont_account"> 계정이 없으십니까? </string>
+        
+    <string name="rememberme"> 기억하세요 </string>
+        
+    <string name="email"> 이메일 </string>
+        
+    <string name="name"> 이름 </string>
+        
+    <string name="phoneNo"> PhoneNo </string>
+        
+    <string name="regis"> 등록 </string>
+        
+    <string name="alreadyhaveanaccountyet"> 아직 계정이 있습니까? </string>
+        
+    <string name="login"> 로그인 </string>
+        
+    <string name="password"> 비밀번호 </string>
+        
+    <string name="please_enter_email"> 이메일을 입력 해주세요 </string>
+        
+    <string name="please_enter_password"> 비밀번호를 입력하십시오 </string>
+        
+    <string name="please_enter_confirm_password"> 비밀번호 확인 </string>
+        
+    <string name="internet_connection"> 인터넷에 연결할 수 없음 </string>
+        
+    <string name="loading">로드 중 .. </string>
+        
+    <string name="theme"> 테마 </string>
+        
+    <string name="home"> 집 </string>
+        
+    <string name="favoritess"> 즐겨 찾기 </string>
+        
+    <string name="resent"> 최근 음악 </string>
+        
+    <string name="resen"> 최근 </string>
+        
+    <string name="profile"> 프로필 </string>
+        
+    <string name="please_enter_name"> 엔터 트 이름을 입력하십시오 </string>
+        
+    <string name="please_enter_phone"> 전화 번호를 입력하십시오 </string>
+        
+    <string name="createac"> 새 계정 만들기 </string>
+        
+    <string name="music_app"> 음악 앱 </string>
+        
+    <string name="welcome"> 환영합니다, </string>
+        
+    <string name="email_profile"> 이메일 :-</string>
+        
+    <string name="name_profile"> 이름 :-</string>
+        
+    <string name="mostplay"> 가장 많이 플레이 </string>
+        
+    <string name="allplay"> 모두 재생 </string>
+        
+    <string name="populer_artist"> 인기 예술가 </string>
+        
+    <string name="populer_album"> 인기 앨범 </string>
+        
+    <string name="reco"> 권장 </string>
+        
+    <string name="music"> 음악 </string>
+        
+    <string name="movie"> 영화 </string>
+        
+    <string name="album"> 앨범 </string>
+        
+    <string name="own"> 자신 재생 목록 </string>
+        
+    <string name="quickstart_message"> 아래의 날씨 구독 버튼을 클릭하여
+        날씨 주제. 날씨 주제로 전송 된 메시지가 수신됩니다. LOG TOKEN 버튼은
+        logcat 할 InstanceID 토큰. </string>
+        
+    <string name="subscribe_to_weather"> 날씨 구독 </string>
+        
+    <string name="log_token"> 로그 토큰 </string>
+        
+    <string name="default_notification_channel_name"> 날씨 </string>
+        
+    <string name="msg_subscribe_failed"> 날씨 주제를 구독하지 못했습니다 </string>
+        
+    <string name="fcm_message"> FCM 메시지 </string>
+        
+    <string name="nothing"> 표시 할 것이 없습니다! </string>
+        
+    <string name="artist"> 아티스트 </string>
+        
+    <string name="local"> LOCAL </string>
+
+    <string name="share"> 공유 </string>
+    <string name="rate"> 요율 </string>
+    <string name="topplay"> 인기 플레이 </string>
+    <string name="sleepplay"> 수면 이야기 </string>
+
+    <string name="journeys"> 여정 </string>
+    <string name="more"> 더보기 </string>
+    <string name="privacy"> 개인 정보 보호 정책 </string>
+</resources>

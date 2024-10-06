@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_home">ᱨᱟᱦᱟᱯᱞᱮ</string>
+    <string name="action_settings">ᱥᱟᱡᱟᱣ</string>
+    <string name="language">ᱯᱟᱹᱨᱥᱤ</string>
+    <string name="title">ᱵᱟᱭᱱᱟ</string>
+    <string name="viewall">ᱡᱚᱛᱚ ᱧᱮᱞ</string>
+    <string name="sign_up">ᱥᱟᱭᱤᱱ ᱚᱯ ᱢᱮ</string>
+    <string name="dont_account">ᱮᱠᱟᱶᱩᱴ ᱵᱟᱹᱱᱩᱜ ᱛᱟᱢᱟ?</string>
+    <string name="rememberme">ᱩᱭᱦᱟᱹᱨ ᱠᱟᱹᱧᱢᱮ</string>
+    <string name="email">ᱤᱢᱮᱞ</string>
+    <string name="name">ᱧᱩᱛᱩᱢ</string>
+    <string name="phoneNo">ᱯᱷᱚᱱ ᱮᱞ</string>
+    <string name="regis">ᱨᱮᱡᱤᱥᱴᱨᱮᱥᱚᱱ</string>
+    <string name="alreadyhaveanaccountyet"> ᱞᱟᱦᱟᱛᱮ ᱮᱠᱟᱶᱩᱴ ᱢᱮᱱᱟᱜ ᱛᱟᱢᱟ?</string>
+    <string name="login">ᱞᱚᱜᱽ ᱤᱱ</string>
+    <string name="password">ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ</string>
+    <string name="please_enter_email"> ᱫᱟᱭᱟᱠᱟᱛᱮ ᱤᱢᱮᱞ ᱟᱫᱮᱨᱢᱮ</string>
+    <string name="please_enter_password"> ᱫᱟᱭᱟᱠᱟᱛᱮ ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ ᱟᱫᱮᱨᱢᱮ</string>
+    <string name="please_enter_confirm_password">ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ ᱴᱷᱟᱹᱣᱠᱟᱹᱭ ᱢᱮ</string>
+    <string name="internet_connection">ᱤᱱᱴᱚᱨᱱᱮᱴ ᱠᱚᱱᱮᱠᱥᱚᱱ ᱵᱟᱹᱱᱩᱜᱼᱟ</string>
+    <string name="loading">ᱞᱟᱫᱮᱜ ᱠᱟᱱᱟ ...</string>
+    <string name="theme">ᱥᱟᱛᱟᱢ</string>
+    <string name="home">ᱚᱲᱟᱜ</string>
+    <string name="favoritess">ᱠᱩᱥᱤᱭᱟᱜ</string>
+    <string name="resent">ᱨᱚᱠᱟ ᱥᱮᱨᱮᱧ</string>
+    <string name="resen">ᱨᱚᱠᱟ</string>
+    <string name="profile">ᱯᱨᱚᱯᱷᱟᱭᱤᱞ</string>
+    <string name="please_enter_name">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱧᱩᱛᱩᱢ ᱟᱫᱮᱨᱢᱮ</string>
+    <string name="please_enter_phone">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱯᱷᱚᱱ ᱮᱞ ᱟᱫᱮᱨᱢᱮ</string>
+    <string name="createac">ᱱᱟᱶᱟ ᱮᱠᱟᱶᱩᱴ ᱛᱮᱭᱟᱨ ᱢᱮ</string>
+    <string name="music_app">ᱥᱮᱨᱮᱧ ᱮᱯᱯ</string>
+    <string name="welcome">ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ</string>
+    <string name="email_profile">ᱤᱢᱮᱞ </string>
+    <string name="name_profile">ᱧᱩᱛᱩᱢ </string>
+    <string name="mostplay">ᱵᱟᱹᱲᱛᱤ ᱪᱟᱹᱞᱩ ᱟᱠᱟᱱᱟᱜ</string>
+    <string name="allplay">ᱡᱚᱛᱚ ᱪᱟᱹᱞᱩᱭ ᱢᱮ</string>
+    <string name="populer_artist">ᱧᱩᱛᱩᱢᱟᱱ ᱵᱟᱰᱚᱦᱤ</string>
+    <string name="populer_album">ᱧᱩᱛᱩᱢᱟᱱ ᱮᱞᱵᱚᱢ</string>
+    <string name="reco">ᱩᱫᱩᱜᱟᱜ</string>
+    <string name="music">ᱥᱮᱨᱮᱧ</string>
+    <string name="movie">ᱪᱚᱞᱚᱱ ᱪᱤᱛᱟᱹᱨ</string>
+    <string name="album">ᱮᱞᱵᱚᱢ</string>
+    <string name="own">ᱟᱯᱱᱟᱨᱟᱜ ᱪᱟᱹᱞᱩ ᱞᱤᱥᱴᱤ</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_weather">ᱦᱚᱭᱼᱦᱤᱥᱤᱫ ᱥᱚᱥᱠᱨᱟᱭᱤᱵᱽ ᱢᱮ</string>
+    <string name="log_token">ᱵᱚᱞᱚᱱ ᱢᱮ</string>
+    <string name="default_notification_channel_name">ᱦᱚᱭᱼᱦᱤᱥᱤᱫ</string>
+    <string name="msg_subscribe_failed">lᱦᱚᱭᱼᱦᱤᱥᱤᱫ ᱥᱟᱛᱟᱢ ᱥᱚᱥᱠᱨᱟᱭᱤᱵᱽ ᱵᱟᱭ ᱜᱟᱱᱞᱮᱱᱟ</string>
+    <string name="fcm_message">ᱮᱯᱷᱼᱥᱤᱼᱮᱢ ᱢᱮᱥᱮᱡᱽ</string>
+    <string name="nothing">ᱧᱮᱞ ᱚᱪᱚᱭ ᱞᱟᱹᱜᱤᱫ ᱪᱮᱫ ᱦᱚᱸ ᱵᱟᱹᱱᱩᱜᱼᱟ</string>
+    <string name="artist">ᱵᱟᱰᱚᱦᱤ</string>
+    <string name="local">ᱞᱚᱠᱟᱞ</string>
+
+    <string name="share">ᱱᱚᱣᱟ ᱮᱯᱯ ᱡᱚᱴᱟᱣ ᱠᱚ ᱞᱟ.ᱭ ᱟᱠᱚ ᱯᱮ</string>
+    <string name="rate">ᱱᱚᱣᱟ ᱮᱯᱯ ᱛᱤᱱᱟ.ᱜ ᱯᱮ ᱠᱩᱥᱤᱭᱟᱜ ᱠᱟᱱᱟ</string>
+    <string name="topplay"> Top Play </string>
+    <string name="sleepplay"> නින්ද කතන්දර </string>
+
+    <string name="journeys"> ගමන් </string>
+    <string name="more"> තවත් </string>
+    <string name="privacy"> රහස්‍යතා ප්‍රතිපත්තිය </string>
+</resources>

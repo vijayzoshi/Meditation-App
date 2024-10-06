@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="220dp"
+    android:layout_height="145dp"
+    android:layout_margin="7dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:longClickable="true"
+    android:id="@+id/rlitem"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="?attr/background_two"
+        app:cardCornerRadius="10dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:id="@+id/backImage"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_gravity="top"
+                android:background="?attr/background_two"
+                android:scaleType="centerCrop" />
+
+            <RelativeLayout
+                android:id="@+id/bottomHolder"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/iv_like"
+                android:layout_below="@+id/backImage"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:paddingStart="15dp"
+                    android:id="@+id/card_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/title"
+                    android:textColor="?attr/textcolor_f"
+                    android:textSize="13dp"
+                    android:gravity="center_vertical"/>
+
+
+            </RelativeLayout>
+
+            <com.like.LikeButton
+                android:id="@+id/iv_like"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                app:anim_scale_factor="2"
+                android:layout_toLeftOf="@+id/xcdfv"
+                app:circle_end_color="@color/colorAccent"
+                app:circle_start_color="@color/red"
+                app:dots_primary_color="@color/background_zero"
+                app:dots_secondary_color="@color/red"
+                app:icon_size="25dp"
+                app:is_enabled="true"
+                app:liked="false"
+                app:like_drawable="@drawable/fav_2"
+                app:unlike_drawable="@drawable/fav_1"
+                android:layout_alignParentBottom="true"
+                />
+            <ImageView
+                android:id="@+id/xcdfv"
+                android:src="@drawable/play_btn"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

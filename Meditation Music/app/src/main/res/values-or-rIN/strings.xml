@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_home"> ରାହା ଖେଳ |</string>
+        
+    <string name="action_settings"> ସେଟିଂସମୂହ |</string>
+        
+    <string name="language"> ଭାଷା |</string>
+        
+    <string name="title"> ଆଖ୍ୟା |</string>
+        
+    <string name="viewall"> ସମସ୍ତଙ୍କୁ ଦେଖନ୍ତୁ |</string>
+        
+    <string name="sign_up"> ସାଇନ୍ ଅପ୍ |</string>
+        
+    <string name="dont_account"> ଏକ ଖାତା ନାହିଁ? |</string>
+        
+    <string name="rememberme"> ମୋତେ ମନେରଖନ୍ତୁ |</string>
+        
+    <string name="email"> ଇମେଲ୍ |</string>
+        
+    <string name="name"> ନାମ |</string>
+        
+    <string name="phoneNo"> PhoneNo |</string>
+        
+    <string name="regis"> ପଞ୍ଜୀକରଣ |</string>
+        
+    <string name="alreadyhaveanaccountyet"> ଏପର୍ଯ୍ୟନ୍ତ ଏକ ଖାତା ଅଛି କି? |</string>
+        
+    <string name="login"> ଲଗ୍ ଇନ୍ |</string>
+        
+    <string name="password"> ପାସୱାର୍ଡ |</string>
+        
+    <string name="please_enter_email"> ଦୟାକରି ଇମେଲ୍ |</string>
+        
+    <string name="please_enter_password"> ଦୟାକରି ପାସୱାର୍ଡ |</string>
+        
+    <string name="please_enter_confirm_password"> ପାସୱାର୍ଡ ନିଶ୍ଚିତ କରନ୍ତୁ |</string>
+        
+    <string name="internet_connection"> ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଉପଲବ୍ଧ ନାହିଁ |</string>
+        
+    <string name="loading"> ଲୋଡିଂ .. |</string>
+        
+    <string name="theme"> ଥିମ୍ |</string>
+        
+    <string name="home"> ଘର |</string>
+        
+    <string name="favoritess"> ପ୍ରିୟ |</string>
+        
+    <string name="resent"> ସାମ୍ପ୍ରତିକ ସଙ୍ଗୀତ |</string>
+        
+    <string name="resen"> ସାମ୍ପ୍ରତିକ |</string>
+        
+    <string name="profile"> ପ୍ରୋଫାଇଲ୍ |</string>
+        
+    <string name="please_enter_name"> ଦୟାକରି enetr name |</string>
+        
+    <string name="please_enter_phone"> ଦୟାକରି ଫୋନ୍ ନ |</string>
+        
+    <string name="createac"> ଏକ ନୂତନ ଖାତା ସୃଷ୍ଟି କରନ୍ତୁ |</string>
+        
+    <string name="music_app"> ମ୍ୟୁଜିକ୍ ଆପ୍ |</string>
+        
+    <string name="welcome"> ସ୍ୱାଗତ, |</string>
+        
+    <string name="email_profile"> ଇମେଲ୍: - |</string>
+        
+    <string name="name_profile"> ନାମ: - |</string>
+        
+    <string name="mostplay"> ମୋଷ୍ଟ ପ୍ଲେ |</string>
+        
+    <string name="allplay"> All Play |</string>
+        
+    <string name="populer_artist"> ଲୋକପ୍ରିୟ କଳାକାର |</string>
+        
+    <string name="populer_album"> ଲୋକପ୍ରିୟ ଆଲବମ୍ |</string>
+        
+    <string name="reco"> ପରାମର୍ଶିତ |</string>
+        
+    <string name="music"> ସଙ୍ଗୀତ |</string>
+        
+    <string name="movie"> ଚଳଚ୍ଚିତ୍ର |</string>
+        
+    <string name="album"> ଆଲବମ୍ |</string>
+        
+    <string name="own"> ନିଜର ପ୍ଲେଲିଷ୍ଟ |</string>
+        
+    <string name="quickstart_message"> ଗ୍ରହୀତା ହେବା ପାଇଁ ନିମ୍ନରେ SUBSCRIBE TO WEATHER ବଟନ୍ କ୍ଲିକ୍ କରନ୍ତୁ |
+        ପାଣିପାଗ ପ୍ରସଙ୍ଗ | ପାଣିପାଗ ପ୍ରସଙ୍ଗକୁ ପଠାଯାଇଥିବା ବାର୍ତ୍ତା ଗ୍ରହଣ କରାଯିବ | LOG TOKEN ବଟନ୍ ଲଗ୍ କରେ |
+        ଲଗକାଟ୍ ପାଇଁ ଇନଷ୍ଟାନ୍ସ ID ଟୋକେନ୍ | |</string>
+        
+    <string name="subscribe_to_weather"> ପାଣିପାଗକୁ ସବସ୍କ୍ରାଇବ କରନ୍ତୁ |</string>
+        
+    <string name="log_token"> ଲଗ୍ ଟୋକେନ୍ |</string>
+        
+    <string name="default_notification_channel_name"> ପାଣିପାଗ |</string>
+        
+    <string name="msg_subscribe_failed"> ପାଣିପାଗ ପ୍ରସଙ୍ଗ |</string>
+        
+    <string name="fcm_message"> FCM ବାର୍ତ୍ତା |</string>
+        
+    <string name="nothing"> ଦେଖାଇବାକୁ କିଛି ନାହିଁ! |</string>
+        
+    <string name="artist"> କଳାକାର |</string>
+        
+    <string name="local"> LOCAL |</string>
+
+    <string name = "share"> ଅଂଶୀଦାର |</string>
+    <string name = "rate"> Rate |</string>
+    <string name = "topplay"> ଟପ୍ ପ୍ଲେ |</string>
+    <string name = "sleepplay"> ଶୋଇବା କାହାଣୀ |</string>
+
+    <string name = "journeys"> ଯାତ୍ରା |</string>
+    <string name = "more"> ଅଧିକ |</string>
+    <string name = "privacy"> ଗୋପନୀୟତା ନୀତି |</string>
+</resources>

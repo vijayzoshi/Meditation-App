@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kmit.musicapp">
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+
+    <application
+        android:name=".MusicDNAApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/MyMaterialTheme.Base"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activities.LoginRegisrationActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <receiver android:name=".notificationmanager.AudioPlayerBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.kmit.musicapp.ACTION_PLAY_PAUSE" />
+                <action android:name="com.kmit.musicapp.ACTION_NEXT" />
+                <action android:name="com.kmit.musicapp.ACTION_PREV" />
+            </intent-filter>
+        </receiver>
+        <!-- <provider -->
+        <!-- android:name="androidx.core.content.FileProvider" -->
+        <!-- android:authorities="com.kmit.musicapp.fileprovider" -->
+        <!-- android:exported="false" -->
+        <!-- android:grantUriPermissions="true"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+        <!-- android:resource="@xml/filepaths" /> -->
+        <!-- </provider> -->
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ThemeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.LanguageActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <service
+            android:name=".notificationmanager.MediaPlayerService"
+            android:stopWithTask="false" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <service
+            android:name=".activities.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+    </application>
+
+</manifest>

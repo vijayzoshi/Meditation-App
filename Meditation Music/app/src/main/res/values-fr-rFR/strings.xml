@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_home"> Musique </string>
+        
+    <string name="action_settings"> Paramètres </string>
+        
+    <string name="language"> Langue </string>
+        
+    <string name="title"> Titre </string>
+        
+    <string name="viewall"> TOUT VOIR </string>
+        
+    <string name="sign_up"> S\'inscrire </string>
+        
+    <string name="dont_account"> Vous n\'avez pas de compte? </string>
+        
+    <string name="rememberme"> Se souvenir de moi </string>
+        
+    <string name="email"> E-mail </string>
+        
+    <string name="name"> Nom </string>
+        
+    <string name="phoneNo"> PhoneNo </string>
+        
+    <string name="regis"> Inscription </string>
+        
+    <string name="alreadyhaveanaccountyet"> Vous avez déjà un compte? </string>
+        
+    <string name="login"> Se connecter </string>
+        
+    <string name="password"> Mot de passe </string>
+        
+    <string name="please_enter_email"> Veuillez saisir un e-mail </string>
+        
+    <string name="please_enter_password"> Veuillez saisir le mot de passe </string>
+        
+    <string name="please_enter_confirm_password"> Confirmer le mot de passe </string>
+        
+    <string name="internet_connection"> Connexion Internet non disponible </string>
+        
+    <string name="loading"> Chargement .. </string>
+        
+    <string name="theme"> Thème </string>
+        
+    <string name="home"> Accueil </string>
+        
+    <string name="favoritess"> Favoris </string>
+        
+    <string name="resent"> Musique récente </string>
+        
+    <string name="resen"> Récent </string>
+        
+    <string name="profile"> Profil </string>
+        
+    <string name="please_enter_name"> veuillez saisir le nom </string>
+        
+    <string name="please_enter_phone"> Veuillez saisir le numéro de téléphone </string>
+        
+    <string name="createac"> Créez un nouveau compte </string>
+        
+    <string name="music_app"> Application musicale </string>
+        
+    <string name="welcome"> Bienvenue à, </string>
+        
+    <string name="email_profile"> E-mail: - </string>
+        
+    <string name="name_profile"> Nom: - </string>
+        
+    <string name="mostplay"> Most Play </string>
+        
+    <string name="allplay"> Tout lire </string>
+        
+    <string name="populer_artist"> Artiste populaire </string>
+        
+    <string name="populer_album"> Albums populaires </string>
+        
+    <string name="reco"> Recommandé </string>
+        
+    <string name="music"> Musique </string>
+        
+    <string name="movie"> Films </string>
+        
+    <string name="album"> Album </string>
+        
+    <string name="own"> Liste de lecture personnelle </string>
+        
+    <string name="quickstart_message"> Cliquez sur le bouton S\'ABONNER À LA MÉTÉO ci-dessous pour vous abonner à la
+        sujet météo. Les messages envoyés au sujet météo seront reçus. Le bouton LOG TOKEN enregistre le
+        Jeton InstanceID à logcat. </string>
+        
+    <string name="subscribe_to_weather"> Abonnez-vous à la météo </string>
+        
+    <string name="log_token"> Jeton de journal </string>
+        
+    <string name="default_notification_channel_name"> Météo </string>
+        
+    <string name="msg_subscribe_failed"> Échec de l\'inscription au sujet météo </string>
+        
+    <string name="fcm_message"> Message FCM </string>
+        
+    <string name="nothing"> Rien à afficher! </string>
+        
+    <string name="artist"> Artiste </string>
+        
+    <string name="local"> LOCAL </string>
+
+    <string name="share"> Partager </string>
+    <string name="rate"> Taux </string>
+    <string name="topplay"> Top Play </string>
+    <string name="sleepplay"> Histoires de sommeil </string>
+
+    <string name="journeys"> Voyages </string>
+    <string name="more"> Plus </string>
+    <string name="privacy"> Politique de confidentialité </string>
+</resources>

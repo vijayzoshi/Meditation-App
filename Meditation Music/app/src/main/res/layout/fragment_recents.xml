@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background_one"
+    android:clickable="true"
+    >
+
+    <RelativeLayout
+        android:id="@+id/recents_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/toolbar_gradient">
+
+        <ImageView
+            android:id="@+id/recents_back_btn"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_back"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/recents_fragment_title"
+            android:text="@string/resent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:paddingBottom="65dp"
+        android:id="@+id/view_recent_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_margin_layout"
+        android:layout_below="@+id/recents_header"
+        />
+
+
+    <RelativeLayout
+        android:paddingBottom="65dp"
+        android:id="@+id/banner_avi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_margin_layout"
+        android:layout_below="@+id/recents_header"
+        android:background="?attr/background_one"
+        android:gravity="center">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="visible"
+            app:indicatorColor="@color/prim"
+            app:indicatorName="LineSpinFadeLoaderIndicator" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/no_recents_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/background_one"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:src="@drawable/ic_error_white_48dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_weight="5"
+            android:gravity="top|center_horizontal"
+            android:text="No Recent Songs"
+            android:textColor="?attr/textcolor_d"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

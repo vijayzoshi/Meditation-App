@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lil_main"
+    android:layout_width="155dp"
+    android:layout_height="155dp"
+    android:layout_marginEnd="10dp"
+    android:background="?attr/background_one"
+    android:orientation="vertical"
+    android:padding="7dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.kmit.musicapp.Util.RoundedImageView
+            android:id="@+id/iv_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="7dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_songs"
+            app:riv_oval="true" />
+
+        <com.kmit.musicapp.Util.RoundedImageView
+            android:id="@+id/iv_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="7dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_songs"
+            app:riv_oval="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.kmit.musicapp.Util.RoundedImageView
+            android:id="@+id/iv_three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="7dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_songs"
+            app:riv_oval="true" />
+
+        <com.kmit.musicapp.Util.RoundedImageView
+            android:id="@+id/iv_four"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="7dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/play_btn"
+            app:riv_oval="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

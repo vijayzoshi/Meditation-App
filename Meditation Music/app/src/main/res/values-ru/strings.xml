@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_home"> Музыка </string>
+        
+    <string name="action_settings"> Настройки </string>
+        
+    <string name="language"> Language </string>
+        
+    <string name="title"> Title </string>
+        
+    <string name="viewall"> ПРОСМОТРЕТЬ ВСЕ </string>
+        
+    <string name="sign_up"> Зарегистрироваться </string>
+        
+    <string name="dont_account"> У вас нет учетной записи? </string>
+        
+    <string name="rememberme"> Запомнить меня </string>
+        
+    <string name="email"> Электронная почта </string>
+        
+    <string name="name"> Name </string>
+        
+    <string name="phoneNo"> PhoneNo </string>
+        
+    <string name="regis"> Регистрация </string>
+        
+    <string name="alreadyhaveanaccountyet"> Уже есть аккаунт? </string>
+        
+    <string name="login"> Войти </string>
+        
+    <string name="password"> Password </string>
+        
+    <string name="please_enter_email"> Пожалуйста, введите адрес электронной почты </string>
+        
+    <string name="please_enter_password"> Пожалуйста, введите пароль </string>
+        
+    <string name="please_enter_confirm_password"> Подтвердите пароль </string>
+        
+    <string name="internet_connection"> Интернет-соединение недоступно </string>
+        
+    <string name="loading"> Загрузка .. </string>
+        
+    <string name="theme"> Theme </string>
+        
+    <string name="home"> Home </string>
+        
+    <string name="favoritess"> Favorite </string>
+        
+    <string name="resent"> Недавняя музыка </string>
+        
+    <string name="resen"> Недавние </string>
+        
+    <string name="profile"> Profile </string>
+        
+    <string name="please_enter_name"> пожалуйста, введите enetr </string>
+        
+    <string name="please_enter_phone"> Пожалуйста, введите номер телефона </string>
+        
+    <string name="createac"> Создать новую учетную запись </string>
+        
+    <string name="music_app"> Музыкальное приложение </string>
+        
+    <string name="welcome"> Добро пожаловать, </string>
+        
+    <string name="email_profile"> Электронная почта: - </string>
+        
+    <string name="name_profile"> Имя: - </string>
+        
+    <string name="mostplay"> Most Play </string>
+        
+    <string name="allplay"> Play All </string>
+        
+    <string name="populer_artist"> Популярный исполнитель </string>
+        
+    <string name="populer_album"> Популярные альбомы </string>
+        
+    <string name="reco"> Рекомендуется </string>
+        
+    <string name="music"> Музыка </string>
+        
+    <string name="movie"> Фильмы </string>
+        
+    <string name="album"> Album </string>
+        
+    <string name="own"> Собственный список воспроизведения </string>
+        
+    <string name="quickstart_message"> Нажмите кнопку ПОДПИСАТЬСЯ НА ПОГОДУ ниже, чтобы подписаться на
+        тема погоды. Сообщения, отправленные на тему погоды, будут получены. Кнопка LOG TOKEN регистрирует
+        Токен InstanceID для logcat. </string>
+        
+    <string name="subscribe_to_weather"> Подписаться на погоду </string>
+        
+    <string name="log_token"> Журнал токена </string>
+        
+    <string name="default_notification_channel_name"> Погода </string>
+        
+    <string name="msg_subscribe_failed"> Не удалось подписаться на тему погоды </string>
+        
+    <string name="fcm_message"> Сообщение FCM </string>
+        
+    <string name="nothing"> Нечего показать! </string>
+        
+    <string name="artist"> Artist </string>
+        
+    <string name="local"> LOCAL </string>
+
+    <string name="share"> Поделиться </string>
+    <string name="rate"> Ставка </string>
+    <string name="topplay"> Лучшая игра </string>
+    <string name="sleepplay"> Истории сна </string>
+
+    <string name="journeys"> Поездки </string>
+    <string name="more"> Еще </string>
+    <string name="privacy"> Политика конфиденциальности </string>
+</resources>

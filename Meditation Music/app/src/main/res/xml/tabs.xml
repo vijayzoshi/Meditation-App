@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        drawable="@drawable/home"
+        text="@string/home" />
+
+    <tab
+        drawable="@drawable/fav"
+        text="@string/favoritess" />
+
+    <tab
+        drawable="@drawable/resent"
+        text="@string/resen" />
+
+    <tab
+        drawable="@drawable/user"
+        text="@string/profile" />
+</tabs>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    app:cardCornerRadius="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/img_image"
+            android:scaleType="centerCrop"
+            />
+
+        <RelativeLayout
+            android:background="@drawable/sliderbottombg"
+            android:id="@+id/bottomHolder"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:paddingStart="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/backImage"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:layout_toStartOf="@+id/fdugh"
+                android:layout_above="@+id/card_bannertext"
+                android:id="@+id/card_name"
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/title"
+                android:textColor="?attr/textcolor_f"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_toStartOf="@+id/fdugh"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/card_bannertext"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/artist"
+                android:textColor="?attr/textcolor_e"
+                android:textSize="9dp" />
+            <ImageView
+                android:id="@+id/fdugh"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:src="@drawable/play_btn"
+                android:padding="8dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
